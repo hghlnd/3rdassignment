@@ -12,10 +12,12 @@
 <body>
   <div class="container">
     <h1>Check Your Pockets</h1>
-    <p>A simple app to help you keep track of your belongings.</p>
+    <p>Catalog your items and their last known location, and set a reminder to check them.</p>
 
-    <input type="text" id="itemInput" placeholder="Enter item name (e.g., Wallet)">
+    <input type="text" id="itemName" placeholder="Item name (e.g., Wallet)">
+    <input type="text" id="itemLocation" placeholder="Last location (e.g., Left coat pocket)">
     <button id="addItemButton">Add Item</button>
+
     <ul id="itemList"></ul>
 
     <label for="reminderInterval">Reminder Interval (minutes):</label>
