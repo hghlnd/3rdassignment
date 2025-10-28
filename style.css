@@ -10,11 +10,11 @@ h1 {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 20px;
   background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
 }
 
@@ -23,13 +23,16 @@ input, button {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  width: calc(100% - 40px);
+  max-width: 560px;
 }
 
 button {
-  cursor: pointer;
   background-color: #007bff;
   color: white;
   border: none;
+  cursor: pointer;
+  width: auto;
 }
 
 button:hover {
@@ -39,12 +42,14 @@ button:hover {
 #itemList {
   list-style-type: none;
   padding: 0;
+  margin-top: 10px;
+  text-align: left;
 }
 
 #itemList li {
   background: #f1f1f1;
-  margin: 5px;
-  padding: 10px;
+  margin: 5px 0;
+  padding: 10px 12px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
