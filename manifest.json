@@ -1,7 +1,7 @@
 {
   "name": "Check Your Pockets",
   "short_name": "Pockets",
-  "description": "An app that helps you catalog belongings and reminds you to check your pockets at set intervals.",
+  "description": "Catalog items with their last known location and get reminders to check them.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
